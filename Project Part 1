@@ -1,0 +1,63 @@
+Table of Contents
+
+Statement of Independent Effort
+Analysis of Specifications
+Main
+Pseudocode
+Flowchart
+Test Cases
+Code
+User Manual
+References
+Statement of Independent Effort
+
+
+I, [YOUR NAME], hereby certify that is my original work completed without the assistance of anyone or any outside resources.
+
+OR
+
+I, [YOUR NAME], hereby certify that this is my original work completed with the assistance of [NAME]/the resources listed in the reference. I used these resources in the following areas: [...].
+
+Analysis of Specifications
+
+Analysis of specifications is where you identify the inputs, outputs, and processes performed by the code. An example process in a blackjack game would be "generate a random card for the user". This section must contain an IPO chart for each function.
+
+Main
+
+Fill in the values in the IPO Chart. See video in Canvas for example.
+
+Input	Process	Output
+Text	Text	Text
+Pseudocode
+
+Paste pseudocode here
+
+BEGIN Main
+    DECLARE String name
+END
+Flowchart
+
+Paste flowchart image here. Note that the image has to uploaded to your repository and then a link added here
+
+Test Cases
+
+Test cases should include edge cases (values near the upper and lower bounds of the allowed values), and acceptable and unacceptable values. Produce at least 5 unique cases.
+
+Example (remove from submission)
+
+Case #	Case Description	Input	Condition (price > creditLimit)	Output
+1	Item that should be approved	Price = 7800	False	Approved
+2	Item that should be approved (edge case)	Price = 8000	False	Approved
+3	Item that should not be approved	Price = 10000	True	Not Approved
+Code
+
+Include a link to your cpp file.
+
+User Manual
+
+Include a link to a separate file called GUIDE.md
+
+User Manual 
+Updated: [DATE]
+
+References
